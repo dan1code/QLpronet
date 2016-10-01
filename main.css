@@ -1,0 +1,146 @@
+
+
+/* header */
+.header {
+  height: 100px;
+  width: 960px;
+  background-color: white;
+  margin: 0 auto;
+  text-align: center;
+}
+
+h1 {
+  padding-top: 20px;
+  color: red;
+}
+
+/* nav */
+.nav {
+  height: 66px;
+  width: 960px;
+  background-color: black;
+  margin: 0 auto;
+}
+
+.containerbtn {
+  height: 66px;
+  width: 640px;
+  background-color: blue;
+  margin: 0 auto;
+}
+
+.playbtn {
+  height: 66px;
+  width: 213px;
+  float: left;
+}
+
+  #playgame {
+    float: left;
+    height: 44px;
+    width: 150px;
+    margin-top: 10px;
+    margin-right: 10px;
+    border: 2px solid black;
+    text-align: center;
+  }
+
+  #quick {
+    float: left;
+    height: 44px;
+    width: 40px;
+    margin-top: 10px;
+    border: 2px solid black;
+    text-align: center;
+  }
+
+.custombtn {
+  height: 66px;
+  width: 213px;
+  float: left;
+  background-color: pink;
+}
+
+  #at {
+    float: left;
+    height: 44px;
+    width: 40px;
+    margin: 10px 20px 0px 50px;
+    border: 2px solid black;
+    text-align: center;
+  }
+
+  #custom {
+    float: left;
+    height: 44px;
+    width: 40px;
+    margin-top: 10px;
+    border: 2px solid black;
+    text-align: center;
+  }
+
+.tournamentbtn {
+  height: 66px;
+  width: 214px;
+  float: left;
+  background-color: green;
+}
+
+ #tournament {
+   float: left;
+   height: 44px;
+   width: 40px;
+   margin-top: 10px;
+   border: 2px solid black;
+   text-align: center;
+ }
+
+ #ladder {
+   float: left;
+   height: 44px;
+   width: 40px;
+   margin-top: 10px;
+   border: 2px solid black;
+   text-align: center;
+ }
+
+ #profile {
+   float: left;
+   height: 44px;
+   width: 40px;
+   margin-top: 10px;
+   border: 2px solid black;
+   text-align: center;
+ }
+
+/* container */
+.container {
+  background-color: blue;
+  width: 960px;
+  height: 400px;
+  margin: 0 auto;
+}
+
+/* chat */
+.chat {
+  height: 400px;
+  width: 640px;
+  background-color: yellow;
+  float: left;
+}
+
+/* profile */
+.profile {
+  height: 350px;
+  width: 320px;
+  background-color: red;
+  float: left;
+}
+
+/* exit */
+.exit {
+  height: 50px;
+  width: 320px;
+  background-color: green;
+  float: left;
+}
