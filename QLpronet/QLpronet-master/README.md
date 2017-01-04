@@ -1,2 +1,0 @@
-# QLpronet
-QL platform
