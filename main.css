@@ -1,4 +1,7 @@
-
+/* body */
+* {
+  font-family: sans-serif;
+}
 
 /* header */
 .header {
@@ -7,6 +10,11 @@
   background-color: white;
   margin: 0 auto;
   text-align: center;
+}
+
+.header img {
+  height: 90px;
+  width: 400px;
 }
 
 h1 {
@@ -19,13 +27,15 @@ h1 {
   height: 66px;
   width: 960px;
   background-color: black;
-  margin: 0 auto;
+  margin: 0 auto 20px auto;
 }
+
+/* 1st btn */
 
 .containerbtn {
   height: 66px;
   width: 640px;
-  background-color: blue;
+  background-color: black;
   margin: 0 auto;
 }
 
@@ -39,9 +49,11 @@ h1 {
     float: left;
     height: 44px;
     width: 150px;
-    margin-top: 10px;
-    margin-right: 10px;
-    border: 2px solid black;
+    margin: 10px 1px 0px 8px;
+    border: 2px solid red;
+    background-color: red;
+    color: white;
+    font-size: 80%;
     text-align: center;
   }
 
@@ -50,48 +62,62 @@ h1 {
     height: 44px;
     width: 40px;
     margin-top: 10px;
-    border: 2px solid black;
+    border: 2px solid white;
+    color: white;
+    font-size: 80%;
     text-align: center;
   }
+
+/* 2nd btn */
 
 .custombtn {
   height: 66px;
   width: 213px;
   float: left;
-  background-color: pink;
+  background-color: black;
 }
 
   #at {
     float: left;
     height: 44px;
     width: 40px;
-    margin: 10px 20px 0px 50px;
-    border: 2px solid black;
+    margin: 10px 20px 0px 60px;
+    border: 2px solid white;
+    color: white;
+    font-size: 80%;
     text-align: center;
   }
 
   #custom {
     float: left;
-    height: 44px;
+    height: 36px;
     width: 40px;
     margin-top: 10px;
-    border: 2px solid black;
+    padding-top: 8px;
+    border: 2px solid white;
+    background-color: white;
+    color: red;
+    font-size: 50%;
     text-align: center;
   }
+
+/* 3rd btn */
 
 .tournamentbtn {
   height: 66px;
   width: 214px;
   float: left;
-  background-color: green;
+  background-color: black;
 }
 
  #tournament {
    float: left;
    height: 44px;
    width: 40px;
-   margin-top: 10px;
-   border: 2px solid black;
+   margin: 10px 0px 0px 30px;
+   border: 2px solid white;
+   color: white;
+   font-size: 80%;
    text-align: center;
  }
 
@@ -99,17 +125,23 @@ h1 {
    float: left;
    height: 44px;
    width: 40px;
-   margin-top: 10px;
-   border: 2px solid black;
+   margin: 10px 10px 0px 10px;
+   border: 2px solid white;
+   color: white;
+   font-size: 80%;
    text-align: center;
  }
 
  #profile {
    float: left;
-   height: 44px;
+   height: 36px;
    width: 40px;
    margin-top: 10px;
-   border: 2px solid black;
+   padding-top: 8px;
+   border: 2px solid white;
+   background-color: white;
+   color: red;
+   font-size: 50%;
    text-align: center;
  }
 
@@ -125,9 +157,80 @@ h1 {
 .chat {
   height: 400px;
   width: 640px;
-  background-color: yellow;
+  background-image: url("images/background.jpg");
   float: left;
 }
+
+  /* channel */
+  .channel {
+    height: 28px;
+    width: 100px;
+    background-color: red;
+    padding-top: 12px;
+    text-align: center;
+    float: left;
+  }
+
+  .channel a {
+    text-decoration: none;
+    color: white;
+  }
+
+  /*channelname */
+  .channelname {
+    height: 37px;
+    width: 536px;
+    background-image: url("images/channelname.jpg");
+    border: 2px solid maroon;
+    color: white;
+    vertical-align: middle;
+    line-height: 3px;
+    float: left;
+  }
+
+  .channelname h3 {
+    margin-left: 10px;
+    padding-bottom: 20px;
+  }
+
+  /* chat window */
+  .chatwindow {
+    height: 324px;
+    width: 640px;
+    color: white;
+    padding: 25px 0px 25px 5px;
+  }
+
+    /*channel join message */
+    .chatwindow h4 {
+      margin-bottom: 0px;
+    }
+
+    /* welcome message */
+    .chatwindow #welcome {
+      margin: 5px 0px 20px 0px;
+    }
+
+    /* text settings */
+    .chatwindow h6 {
+      margin: 5px 0px 0px 0px;
+    }
+
+  /* chatbox */
+  .chatbox {
+    height: 20px;
+    width: 634px;
+    border: 3px solid maroon;
+    margin-bottom: 0px;
+    background-color: white;
+    vertical-align: middle;
+    line-height: 2px;
+  }
+
+  .chatbox p {
+    font-size: 10px;
+    padding-left: 10px;
+  }
 
 /* profile */
 .profile {
@@ -137,10 +240,66 @@ h1 {
   float: left;
 }
 
+  /*CSS for Tabs */
+    /* Style the list */
+  .profile ul.tab {
+      height: 30px;
+      width: 320px;
+      list-style-type: none;
+      margin: 0px 0px 0px 0px;
+      padding: 0;
+      overflow: hidden;
+      background-color: #f1f1f1;
+  }
+
+  /* Float the list items side by side */
+  .profile ul.tab li {float: left;}
+
+  .profile ul.tab #defaultOpen {
+    margin-left: 1px;
+  }
+
+  /* Style the links inside the list items */
+  .profile ul.tab li a {
+      width: 72px;
+      display: inline-block;
+      color: black;
+      font-size: 15px;
+      text-decoration: none;
+      border: 1px solid black;
+      padding: 14px 16px;
+      transition: 0.3s;
+      text-align: center;
+      vertical-align: middle;
+      line-height: 5px;
+  }
+
+  /* Change background color of links on hover */
+  .profile ul.tab li a:hover {background-color: #ddd;}
+
+  /* Create an active/current tablink class */
+  .profile ul.tab li a:focus, .active {background-color: #ccc;}
+
+  /* Style the tab content */
+  .tabcontent {
+      display: none;
+      padding: 6px 12px;
+      border-top: none;
+      height: 300px;
+  }
+
+
 /* exit */
 .exit {
-  height: 50px;
+  height: 35px;
   width: 320px;
-  background-color: green;
+  padding-top: 15px;
+  background-color: black;
   float: left;
+  text-align: center;
+}
+
+.exit a {
+  text-decoration: none;
+  color: red;
 }
