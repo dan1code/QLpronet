@@ -149,13 +149,13 @@ h1 {
 .container {
   background-color: blue;
   width: 960px;
-  height: 400px;
+  height: 500px;
   margin: 0 auto;
 }
 
 /* chat */
 .chat {
-  height: 400px;
+  height: 500px;
   width: 640px;
   background-image: url("images/background.jpg");
   float: left;
@@ -195,7 +195,7 @@ h1 {
 
   /* chat window */
   .chatwindow {
-    height: 324px;
+    height: 424px;
     width: 640px;
     color: white;
     padding: 25px 0px 25px 5px;
@@ -234,69 +234,92 @@ h1 {
 
 /* profile */
 .profile {
-  height: 350px;
+  height: 475px;
   width: 320px;
-  background-color: red;
+  background-color: yellow;
   float: left;
 }
 
-  /*CSS for Tabs */
-    /* Style the list */
-  .profile ul.tab {
-      height: 30px;
-      width: 320px;
-      list-style-type: none;
-      margin: 0px 0px 0px 0px;
-      padding: 0;
-      overflow: hidden;
-      background-color: #f1f1f1;
+    /*CSS for Tabs */
+      /* Style the list */
+    .profile ul.tab {
+        height: 30px;
+        width: 320px;
+        list-style-type: none;
+        margin: 0px 0px 0px 0px;
+        padding: 0;
+        overflow: hidden;
+        background-color: #f1f1f1;
+    }
+
+    /* Float the list items side by side */
+    .profile ul.tab li {float: left;}
+
+    .profile ul.tab #defaultOpen {
+      margin-left: 0px;
+    }
+
+    .profile ul.tab #lipadding {
+      margin: 0px 4px;
+    }
+
+    /* Style the links inside the list items */
+    .profile ul.tab li a {
+        width: 70px;
+        display: inline-block;
+        color: black;
+        font-size: 15px;
+        text-decoration: none;
+        border: 1px solid black;
+        padding: 14px 16px;
+        transition: 0.3s;
+        text-align: center;
+        vertical-align: middle;
+        line-height: 5px;
+    }
+
+    /* Change background color of links on hover */
+    .profile ul.tab li a:hover {background-color: #ddd;}
+
+    /* Create an active/current tablink class */
+    .profile ul.tab li a:focus, .active {background-color: #ccc;}
+
+    /* Style the tab content */
+    .tabcontent {
+        display: none;
+        padding: 6px 12px;
+        border-top: none;
+        height: 300px;
+    }
+
+  /* CSS for names in profile tab  */
+  .avatar {
+    width: 320px;
+    padding: 20px;
+    list-style-type: none;
+    background-color: grey;
   }
 
-  /* Float the list items side by side */
-  .profile ul.tab li {float: left;}
-
-  .profile ul.tab #defaultOpen {
-    margin-left: 1px;
-  }
-
-  /* Style the links inside the list items */
-  .profile ul.tab li a {
-      width: 72px;
-      display: inline-block;
-      color: black;
-      font-size: 15px;
-      text-decoration: none;
-      border: 1px solid black;
-      padding: 14px 16px;
-      transition: 0.3s;
-      text-align: center;
-      vertical-align: middle;
-      line-height: 5px;
-  }
-
-  /* Change background color of links on hover */
-  .profile ul.tab li a:hover {background-color: #ddd;}
-
-  /* Create an active/current tablink class */
-  .profile ul.tab li a:focus, .active {background-color: #ccc;}
-
-  /* Style the tab content */
-  .tabcontent {
-      display: none;
-      padding: 6px 12px;
-      border-top: none;
-      height: 300px;
+  .avatar li {
+    width: 320px;
+    margin: 3px;
+    color: red;
+    font-size: 10px;
+    list-style-type: none;
+    border: 1px solid black;
+    border-radius: 5px;
   }
 
 
 /* exit */
 .exit {
-  height: 35px;
+  height: 20px;
   width: 320px;
-  padding-top: 15px;
+  padding-top: 4px;
   background-color: black;
   float: left;
   text-align: center;
+  font-size: 15px;
 }
 
 .exit a {
