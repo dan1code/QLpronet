@@ -246,7 +246,7 @@ h1 {
         height: 30px;
         width: 320px;
         list-style-type: none;
-        margin: 0px 0px 0px 0px;
+        margin: 0px 0px -19px 0px;
         padding: 0;
         overflow: hidden;
         background-color: #f1f1f1;
@@ -266,6 +266,7 @@ h1 {
     /* Style the links inside the list items */
     .profile ul.tab li a {
         width: 70px;
+        height: 0px;
         display: inline-block;
         color: black;
         font-size: 15px;
@@ -286,28 +287,26 @@ h1 {
 
     /* Style the tab content */
     .tabcontent {
-        display: none;
-        padding: 6px 12px;
-        border-top: none;
-        height: 300px;
+        height: 446px;
+        background-color: green;
     }
 
-  /* CSS for names in profile tab  */
+  /* CSS for names in Channel tab */
   .avatar {
     width: 320px;
-    padding: 20px;
-    list-style-type: none;
+    height: 444px;
+    list-style: none;
+    padding: 0px;
     background-color: grey;
   }
 
   .avatar li {
-    width: 320px;
-    margin: 3px;
+    display: block;
+    width: 280px;
+    margin-top: 10px;
     color: red;
     font-size: 10px;
-    list-style-type: none;
-    border: 1px solid black;
-    border-radius: 5px;
+    background-color: blue;
   }
 
 
