@@ -271,10 +271,10 @@
     }
 
     /* Change background color of links on hover */
-    .profile ul.tab li a:hover {background-color: #ddd;}
+    .profile ul.tab li a:hover {background-color: #ff8080;}
 
     /* Create an active/current tablink class */
-    .profile ul.tab li a:focus, .active {background-color: #ccc;}
+    .profile ul.tab li a:focus, .active {background-color: red;}
 
     /* Style the tab content */
     .tabcontent {
@@ -288,7 +288,7 @@
   #Channel ul {
     height: 446px;
     width: 320px;
-    background-color: grey;
+    background-color: black;
     margin-top: 0px;
     padding: 0px;
     padding-top: 1px;
@@ -296,25 +296,151 @@
   }
 
   #Channel li {
-    height: 20px;
+    height: 25px;
     width: 316px;
     margin-top: 2px;
-    border: 2px solid black;
+    border: 2px solid grey;
     border-radius: 5px;
   }
 
+  /*Border for Leaders */
+  #Channel .Leader {
+    border: 2px solid orange;
+  }
+
+
+    /* Avatar Images */
+    #Channel img {
+      height: 25px;
+      width: 30px;
+      margin-left: 5px;
+      float: left;
+    }
+
+    /*Avatar Level */
+    #Channel li .level {
+      height: 25px;
+      width: 30px;
+      color: gold;
+      margin: 5px 0px 0px 0px;
+      font-size: 14px;
+      float: left;
+      text-align: center;
+    }
+
+    /*Avatar Name */
+    #Channel li .name {
+      height: 25px;
+      width: 185px;
+      color: white;
+      margin: 5px 0px 0px 0px;
+      float: left;
+    }
+    /*Avatar Clan Name*/
+    #Channel li .clanname {
+      height: 25px;
+      width: 62px;
+      color: gold;
+      margin: 5px 0px 0px 0px;
+      float: left;
+      text-align: right;
+    }
+
+  /* CSS for Friendslist */
+  #Friends ul {
+    height: 446px;
+    width: 320px;
+    background-color: black;
+    margin-top: 0px;
+    padding: 0px;
+    padding-top: 1px;
+    list-style-type: none;
+  }
+
+  #Friends li {
+    height: 25px;
+    width: 316px;
+    margin-top: 2px;
+    border: 2px solid grey;
+    border-radius: 5px;
+  }
+
+    /* Avatar Images */
+    #Friends img {
+      height: 25px;
+      width: 30px;
+      margin: 0px 15px 0px 5px;
+      float: left;
+    }
+
+    /*Avatar Name */
+    #Friends li .name {
+      height: 25px;
+      width: 200px;
+      color: white;
+      margin: 5px 0px 0px 0px;
+      float: left;
+    }
+
+    /*Avatar Clan Name Online*/
+    #Friends li .status {
+      height: 25px;
+      width: 62px;
+      color: green;
+      margin: 5px 0px 0px 0px;
+      float: left;
+      text-align: right;
+    }
+
+    /*Avatar Clan Name Offline*/
+
+    #Friends li .status1 {
+      height: 25px;
+      width: 62px;
+      color: red;
+      margin: 5px 0px 0px 0px;
+      float: left;
+      text-align: right;
+    }
+
+    /* Clan Container */
+    .clancontainer {
+      height: 446px;
+      width: 320px;
+      background-color: black;
+      padding-top: 1px;
+      color: white;
+      text-align: center;
+    }
+
+    .clancontainer h1 {
+      margin-top: 125px;
+      margin-bottom: 25px;
+    }
+
+    .clancontainer a {
+      color: black;
+      padding: 10px;
+      border: 1px solid white;
+      border-radius: 5px;
+      background-color: white;
+      text-decoration: none;
+    }
+
 /* exit */
 .exit {
-  height: 20px;
-  width: 320px;
+  height: 19px;
+  width: 318px;
   padding-top: 4px;
-  background-color: black;
+  background-color: red;
+  border: 1px solid grey;
   float: left;
   text-align: center;
   font-size: 15px;
 }
 
 .exit a {
+  color: white;
+  background-color: red;
   text-decoration: none;
-  color: red;
 }
