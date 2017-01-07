@@ -17,11 +17,6 @@
   width: 400px;
 }
 
-h1 {
-  padding-top: 20px;
-  color: red;
-}
-
 /* nav */
 .nav {
   height: 66px;
@@ -236,27 +231,24 @@ h1 {
 .profile {
   height: 475px;
   width: 320px;
-  background-color: yellow;
+  background-color: green;
   float: left;
 }
 
-    /*CSS for Tabs */
-      /* Style the list */
+      /* Style the tab list */
     .profile ul.tab {
         height: 30px;
         width: 320px;
         list-style-type: none;
-        margin: 0px 0px -19px 0px;
-        padding: 0;
+        margin: 0px;
+        padding: 0px;
         overflow: hidden;
         background-color: #f1f1f1;
     }
 
     /* Float the list items side by side */
-    .profile ul.tab li {float: left;}
-
-    .profile ul.tab #defaultOpen {
-      margin-left: 0px;
+    .profile ul.tab li {
+      float: left;
     }
 
     .profile ul.tab #lipadding {
@@ -265,18 +257,17 @@ h1 {
 
     /* Style the links inside the list items */
     .profile ul.tab li a {
-        width: 70px;
-        height: 0px;
+        width: 102px;
+        height: 28px;
         display: inline-block;
+        text-decoration: none;
         color: black;
         font-size: 15px;
-        text-decoration: none;
         border: 1px solid black;
-        padding: 14px 16px;
-        transition: 0.3s;
         text-align: center;
         vertical-align: middle;
-        line-height: 5px;
+        line-height: 30px;
+        transition: 0.3s;
     }
 
     /* Change background color of links on hover */
@@ -288,27 +279,29 @@ h1 {
     /* Style the tab content */
     .tabcontent {
         height: 446px;
-        background-color: green;
+        width: 320px;
+        background-color: yellow;
+        margin-top: 0px;
     }
 
-  /* CSS for names in Channel tab */
-  .avatar {
+  /* CSS for Channel Tab */
+  #Channel ul {
+    height: 446px;
     width: 320px;
-    height: 444px;
-    list-style: none;
-    padding: 0px;
     background-color: grey;
+    margin-top: 0px;
+    padding: 0px;
+    padding-top: 1px;
+    list-style-type: none;
   }
 
-  .avatar li {
-    display: block;
-    width: 280px;
-    margin-top: 10px;
-    color: red;
-    font-size: 10px;
-    background-color: blue;
+  #Channel li {
+    height: 20px;
+    width: 316px;
+    margin-top: 2px;
+    border: 2px solid black;
+    border-radius: 5px;
   }
-
 
 /* exit */
 .exit {
