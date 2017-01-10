@@ -152,13 +152,12 @@
 .chat {
   height: 500px;
   width: 640px;
-  background-image: url("images/background.jpg");
   float: left;
 }
 
   /* channel */
   .channel {
-    height: 28px;
+    height: 29px;
     width: 100px;
     background-color: red;
     padding-top: 12px;
@@ -188,46 +187,84 @@
     padding-bottom: 20px;
   }
 
-  /* chat window */
+/* INTEGRATION chat window */
+
+  /* container for chatbox */
   .chatwindow {
-    height: 424px;
+    height: 459px;
     width: 640px;
+    float: left;
+  }
+
+  /* Chatbox for text */
+  #chatbox {
+      height:417px;
+      width:620px;
+      color: white;
+      text-align:left;
+      margin-bottom:0px;
+      padding:10px;
+      background-image: url("images/background.jpg");
+      overflow:auto;
+    }
+
+  #chatbox p span {
+      margin:0;
+      padding:0;
+    }
+
+  /* Text Enter Box */
+  #usermsg {
+      height: 12px;
+      width:575px;
+      margin: 0px;
+      padding-left: 10px;
+      float: left;
+    }
+
+  /* Text Submit Button */
+  #submitmsg {
+    height: 18px;
+    width: 47px;
+    margin: 0px;
+    background-color: black;
+    border: none;
     color: white;
-    padding: 25px 0px 25px 5px;
   }
 
-    /*channel join message */
-    .chatwindow h4 {
-      margin-bottom: 0px;
-    }
+  input {font:12px arial;}
 
-    /* welcome message */
-    .chatwindow #welcome {
-      margin: 5px 0px 20px 0px;
-    }
-
-    /* text settings */
-    .chatwindow h6 {
-      margin: 5px 0px 0px 0px;
-    }
-
-  /* chatbox */
-  .chatbox {
-    height: 20px;
-    width: 634px;
-    border: 3px solid maroon;
-    margin-bottom: 0px;
-    background-color: white;
-    vertical-align: middle;
-    line-height: 2px;
+  /* Container form for Text Bob / Submit Button */
+  form {
+    margin:0;
+    padding:0;
+    border: 2px solid black;
+    font:12px arial;
+    color: #222;
+    text-align:center;
   }
 
-  .chatbox p {
-    font-size: 10px;
-    padding-left: 10px;
-  }
+  /* Styling for Log in/out */
+  .error { color: #ff0000; }
 
-/* profile */
+  .welcome { float:left; }
+
+  .msgln { margin:0 0 2px 0; }
+
+  #loginform {
+      margin:0 auto;
+      padding-bottom:25px;
+      background:#EBF4FB;
+      width:504px;
+      border:1px solid #ACD8F0; }
+
+  #loginform { padding-top:18px; }
+
+      #loginform p { margin: 5px; }
+
+/* COPY PASTE ENDING*/
+
+/* Profile */
 .profile {
   height: 475px;
   width: 320px;
