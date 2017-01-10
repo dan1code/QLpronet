@@ -196,14 +196,27 @@
     float: left;
   }
 
+  .channelwelcome {
+    height: 30px;
+    width: 640px;
+    background-image: url("images/background1.jpg");
+    margin: 0px;
+    float: left;
+  }
+
+  .channelwelcome h5 {
+    margin: 7px 0px 0px 10px;
+    padding: 0px;
+  }
+
   /* Chatbox for text */
   #chatbox {
-      height:417px;
+      height:394px;
       width:620px;
       color: white;
       text-align:left;
       margin-bottom:0px;
-      padding:10px;
+      padding: 0px 10px 10px 10px;
       background-image: url("images/background.jpg");
       overflow:auto;
     }
@@ -215,7 +228,7 @@
 
   /* Text Enter Box */
   #usermsg {
-      height: 12px;
+      height: 15px;
       width:575px;
       margin: 0px;
       padding-left: 10px;
@@ -224,7 +237,7 @@
 
   /* Text Submit Button */
   #submitmsg {
-    height: 18px;
+    height: 21px;
     width: 47px;
     margin: 0px;
     background-color: black;
@@ -236,6 +249,7 @@
 
   /* Container form for Text Bob / Submit Button */
   form {
+    height: 21px;
     margin:0;
     padding:0;
     border: 2px solid black;
@@ -245,22 +259,45 @@
   }
 
   /* Styling for Log in/out */
-  .error { color: #ff0000; }
+  .error {
+    color: red;
+   }
 
   .welcome { float:left; }
 
-  .msgln { margin:0 0 2px 0; }
+  .msgln {
+    margin:0 0 2px 0;
+    font-size: 13px;
+   }
 
   #loginform {
+      height: 455px;
+      width:960px;
       margin:0 auto;
       padding-bottom:25px;
-      background:#EBF4FB;
-      width:504px;
-      border:1px solid #ACD8F0; }
+      background-color: black;
+      border:1px solid #ACD8F0;
+    }
 
-  #loginform { padding-top:18px; }
+  #loginform { padding-top:19px;}
 
-      #loginform p { margin: 5px; }
+      #loginform form {
+        margin-top: 175px;
+      }
+
+      #loginform label {
+        color: white;
+      }
+
+      #loginform #enter {
+        color: white;
+        background-color: red;
+        border: 1px solid white;
+      }
+
+  #namecolor {
+    color: gold;
+  }
 
 /* COPY PASTE ENDING*/
 

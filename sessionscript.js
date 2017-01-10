@@ -6,9 +6,11 @@ $(document).ready(function(){
 $(document).ready(function(){
 //If user wants to end session
 $("#exit").click(function(){
-    var exit = confirm("Are you sure you want to end the session?");
+    var exit = confirm("Are you sure you want to quit QLpronet?");
     if(exit==true){window.location = 'index.php?logout=true';}
 });
+//AutoScroll chatbox to bottom on load"
+$('#chatbox').scrollTop($('#chatbox')[0].scrollHeight);
 });
 
 //If user submits the form
