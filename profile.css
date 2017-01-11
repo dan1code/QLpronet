@@ -1,0 +1,315 @@
+/* body */
+* {
+  font-family: sans-serif;
+}
+
+/* header */
+.header {
+  height: 100px;
+  width: 960px;
+  background-color: white;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.header img {
+  height: 90px;
+  width: 400px;
+}
+
+/* nav */
+.nav {
+  height: 66px;
+  width: 960px;
+  background-color: black;
+  margin: 0 auto 20px auto;
+}
+
+/* 1st btn */
+
+.containerbtn {
+  height: 66px;
+  width: 640px;
+  background-color: black;
+  margin: 0 auto;
+}
+
+.playbtn {
+  height: 66px;
+  width: 213px;
+  float: left;
+}
+
+  #playgame {
+    float: left;
+    height: 44px;
+    width: 150px;
+    margin: 10px 1px 0px 8px;
+    border: 2px solid red;
+    background-color: red;
+    color: white;
+    font-size: 80%;
+    text-align: center;
+  }
+
+  #quick {
+    float: left;
+    height: 44px;
+    width: 40px;
+    margin-top: 10px;
+    border: 2px solid white;
+    color: white;
+    font-size: 80%;
+    text-align: center;
+  }
+
+/* 2nd btn */
+
+.custombtn {
+  height: 66px;
+  width: 213px;
+  float: left;
+  background-color: black;
+}
+
+  #at {
+    float: left;
+    height: 44px;
+    width: 40px;
+    margin: 10px 20px 0px 60px;
+    border: 2px solid white;
+    color: white;
+    font-size: 80%;
+    text-align: center;
+  }
+
+  #custom {
+    float: left;
+    height: 36px;
+    width: 40px;
+    margin-top: 10px;
+    padding-top: 8px;
+    border: 2px solid white;
+    background-color: white;
+    color: red;
+    font-size: 50%;
+    text-align: center;
+  }
+
+/* 3rd btn */
+
+.tournamentbtn {
+  height: 66px;
+  width: 214px;
+  float: left;
+  background-color: black;
+}
+
+ #tournament {
+   float: left;
+   height: 44px;
+   width: 40px;
+   margin: 10px 0px 0px 30px;
+   border: 2px solid white;
+   color: white;
+   font-size: 80%;
+   text-align: center;
+ }
+
+ #ladder {
+   float: left;
+   height: 44px;
+   width: 40px;
+   margin: 10px 10px 0px 10px;
+   border: 2px solid white;
+   color: white;
+   font-size: 80%;
+   text-align: center;
+ }
+
+ #profile {
+   float: left;
+   height: 36px;
+   width: 40px;
+   margin-top: 10px;
+   padding-top: 8px;
+   border: 2px solid white;
+   background-color: white;
+   color: red;
+   font-size: 50%;
+   text-align: center;
+ }
+
+/* container */
+.container {
+  width: 960px;
+  height: 500px;
+  background-color: blue;
+  margin: 0 auto;
+}
+
+/* Account info box */
+.accountinfo {
+  height: 500px;
+  width: 560px;
+  background-color: yellow;
+  float: left;
+}
+
+/* Avatar and information box */
+  #accountbox {
+    height: 300px;
+    width: 560px;
+    background-color: red;
+    float: left;
+  }
+
+    /* Icon box */
+    #avatar {
+      height: 121px;
+      width: 136px;
+      background-color: white;
+      border: 2px solid black;
+      float: left;
+    }
+
+      /* Icon */
+        #avatar img {
+          height: 88px;
+          width: 80px;
+          margin: 5px 24px 0px 24px;
+          border: 2px solid black;
+        }
+
+      /* Icon link */
+        #avatar a {
+          margin-left: 9px;
+          padding: 1px 20px 1px 20px;
+          color: white;
+          font-size: 15px;
+          background-color: red;
+          border: 1px solid black;
+          border-radius: 5px;
+          text-decoration: none;
+        }
+
+    /* Name box */
+    #name {
+      height: 121px;
+      width: 416px;
+      background-color: white;
+      border: 2px solid black;
+      float: left;
+    }
+
+      #name h5 {
+        color: red;
+        margin: 5px 0px 0px 5px;
+      }
+
+      #name h3 {
+        color: black;
+        margin: 5px 0px 0px 15px;
+      }
+
+    /* Homepage box */
+
+    #homepagebox {
+      height: 171px;
+      width: 556px;
+      background-color: white;
+      border: 2px solid black;
+      float: left;
+    }
+
+      #homepagebox h5 {
+        color: red;
+        margin: 5px 0px 0px 5px;
+      }
+
+      #homepagebox textarea {
+        margin: 2px 0px 0px 5px;
+        border: 2px solid black;
+        resize: none;
+      }
+
+  /* History Box */
+  #historybox {
+    height: 196px;
+    width: 556px;
+    background-color: white;
+    border: 2px solid black;
+    float: left;
+  }
+
+    /* Plays History Text */
+    #historybox h5 {
+      margin: 5px 0px 0px 5px;
+    }
+
+    /* History Tabs */
+    #historybox ul {
+      margin: 5px 0px 0px 5px;
+      padding: 0px;
+    }
+
+    #historybox ul li {
+      height: 15px;
+      width: 70px;
+      margin: 0px 1px 0px 0px;
+      border: 1px solid black;
+      border-top-right-radius: 5px;
+      border-top-left-radius: 5px;
+      background-color: red;
+      color: white;
+      list-style: none;
+      text-align: center;
+      display: inline-block;
+      float: left;
+    }
+
+    #historybox ul li h5 {
+      margin: 1px 0px 0px 0px;
+    }
+
+    #historybox table {
+      height: 150px;
+      width: 450px;
+      margin: 0px 0px 0px 5px;
+      background-color: green;
+      table-layout: fixed;
+      empty-cells: show;
+      clear: left;
+    }
+
+    #historybox th {
+      height: 10px;
+      width: 10px;
+      padding: 0px;
+      background-color: pink;
+      border: 1px solid orange;
+      font-size: 10px;
+
+    }
+
+/* Ladder info box */
+.ladderinfo {
+  height: 500px;
+  width: 400px;
+  background-color: green;
+  float: left;
+}
+
+  #ladderbox {
+    height: 400px;
+    width: 400px;
+    background-color: purple;
+    float: left;
+  }
+
+  #backbox {
+    height: 100px;
+    width: 400px;
+    background-color: orange;
+    float: left;
+  }
