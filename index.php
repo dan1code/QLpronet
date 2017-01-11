@@ -42,7 +42,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 
 <head>
-  <title>QLPnet</title>
+  <title>QLpronet</title>
   <link rel="stylesheet" type="text/css" href="main.css">
 </head>
 
@@ -180,7 +180,7 @@
           <li>
             <img src="images/avatars/pleb2.jpg">
             <p class="level">3</p>
-            <p class="name">MONIQUE</p>
+            <p class="name">MUN</p>
             <p class="clanname">CHAMP</p>
           </li>
           <li>
