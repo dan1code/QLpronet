@@ -14,7 +14,7 @@
 
 .header img {
   height: 90px;
-  width: 400px;
+  width: 500px;
 }
 
 /* nav */
@@ -139,6 +139,11 @@
    font-size: 50%;
    text-align: center;
  }
+
+   #profile a {
+     text-decoration: none;
+     color: red;
+   }
 
 /* container */
 .container {

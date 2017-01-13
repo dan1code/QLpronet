@@ -17,7 +17,7 @@
       // Join Message
       if ($_POST ['name'] != "") {
           $_SESSION ['name'] = stripslashes ( htmlspecialchars ( $_POST ['name'] ) );
-          $fp = fopen ( "log.html", 'a' );
+          $fp = fopen ( "php/log.html", 'a' );
           fwrite ( $fp, "<div class='msgln'><i><span style='color:gold'>" . $_SESSION ['name'] . "</span> <span style='color:#33bbff'>has joined QLpronet.</span></i><br></div>");
           fclose ( $fp );
       } else {
@@ -28,7 +28,7 @@
   if (isset ( $_GET ['logout'] )) {
 
       // Exit message
-      $fp = fopen ( "log.html", 'a' );
+      $fp = fopen ( "php/log.html", 'a' );
       fwrite ( $fp, "<div class='msgln'><i><span style='color:gold'>" . $_SESSION ['name'] . "</span> <span style='color:#33bbff'> has left QLpronet.</span></i><br></div>" );
       fclose ( $fp );
 
@@ -95,7 +95,7 @@
         </div>
 
         <div id="profile">
-          <h3>PROFILE</h3>
+          <a href="profiles/profile.html"><h3>PROFILE</h3><a>
         </div>
 
       </div>
@@ -134,9 +134,9 @@
         <div id="chatbox">
 
             <?php
-            if (file_exists ( "log.html" ) && filesize ( "log.html" ) > 0) {
-                $handle = fopen ( "log.html", "r" );
-                $contents = fread ( $handle, filesize ( "log.html" ) );
+            if (file_exists ( "php/log.html" ) && filesize ( "php/log.html" ) > 0) {
+                $handle = fopen ( "php/log.html", "r" );
+                $contents = fread ( $handle, filesize ( "php/log.html" ) );
                 fclose ( $handle );
 
                 echo $contents;
@@ -235,10 +235,10 @@
 
   </div>
 
-<script src="profilescript.js"></script>
+<script src="js/profilescript.js"></script>
 <script type="text/javascript"
     src="http://ajax.googleapis.com/ajax/libs/jquery/1.3/jquery.min.js"></script>
-<script src="sessionscript.js"></script>
+<script src="js/sessionscript.js"></script>
 <?php
 }
 ?>
